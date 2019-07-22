@@ -14,4 +14,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream #断点的暴露地址，这里设置的是：actuator/hystrix.stream
+        include: hystrix.stream #暴露的端点为hystrix.stream即监控面板，对应url为：actuator/hystrix.stream
