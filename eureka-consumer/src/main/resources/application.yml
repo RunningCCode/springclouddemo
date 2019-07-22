@@ -4,6 +4,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7000/eureka/ # 指定 Eureka 注册中心的地址
+      defaultZone: http://localhost:7000/eureka/,http://localhost:7001/eureka/ # 指定 Eureka 注册中心的地址
 server:
   port: 9000 # 分别为 9000、9001、9002

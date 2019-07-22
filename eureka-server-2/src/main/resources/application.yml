@@ -2,7 +2,7 @@ spring:
   application:
     name: eureka-server
 server:
-  port: 7002
+  port: 7001
 eureka:
   instance:
     hostname: peer2
@@ -11,4 +11,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://peer1:7001/eureka/
+      defaultZone: http://peer1:7000/eureka/

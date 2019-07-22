@@ -8,8 +8,6 @@ import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import javax.annotation.Resource;
-import java.util.EnumSet;
 
 /**
  * @author chenzhicong
