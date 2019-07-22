@@ -10,3 +10,8 @@ server:
 feign:
   hystrix:
     enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream #断点的暴露地址，这里设置的是：actuator/hystrix.stream

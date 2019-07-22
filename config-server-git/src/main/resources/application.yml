@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/RunningCCode/springclouddemo # 配置git仓库的地址
+          search-paths: config-repo # git仓库地址下的相对地址，可以配置多个，用","分割。
+          username: c_man777@163.com #git账号
+          password: czc19940221 #git密码
+server:
+  port: 12000
+#手动指定本地src下的Yml: spring.profiles.active=native
+#手动指定本地路径的yml:spring.cloud.config.server.native.searchLocations=file:E:/properties/
+
